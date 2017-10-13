@@ -1,24 +1,20 @@
 /* Segoe UI font isn't safe for MacOS */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
-@font-face
-{
-    font-family: "Segoe UI";
-    src: url("../fonts/SegoeUIregular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUI/SegoeUI.woff') format('../fonts/SegoeUI/woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face
-{
-    font-family: "Segoe UI Bold";
-    src: url("../fonts/SegoeUIbold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUI-Bold/SegoeUI-Bold.woff') format('../fonts/SegoeUI-Bold/woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
-	font: 400 18px/1.67 'Segoe UI', 'Open Sans', sans-serif;
+	font: 400 18px/1.67 'Segoe UI', sans-serif;
 	background: #fff;
 	color: #888a8b;
 }
