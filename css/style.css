@@ -33,16 +33,18 @@ body {
 	background-color: #23232e;
 	color: #fff;
 	text-align: center;
-	padding: 80px 0 280px;
+	padding: 80px 0 277px;
 	position: relative;
 }
 
 .ba-top p {
-	margin: 20px 0 0;
+	width: 416px;
+	margin: auto;
+	text-align: center;
 }
 
 .ba-header {
-	padding-bottom: 185px;
+	padding-bottom: 135px;
 }
 
 .ba-logo {
@@ -52,7 +54,7 @@ body {
 .ba-title {
 	font-size: 80px;
 	font-weight: 700;
-	margin: 0 0 60px;
+	margin: 0 0 23px;
 	text-transform: uppercase;
 }
 
@@ -69,8 +71,7 @@ body {
 
 .ba-main {
 	background: url(../img/bg.jpg);
-	padding: 124px 0;
-
+	padding: 85px 0;
 }
 
 .ba-about {
@@ -78,7 +79,15 @@ body {
 	font-size: 30px;
 	line-height: 1.4; /*42:30 */
 	text-align: center;
-	padding-bottom: 119px;
+	padding-bottom: 23px;
+}
+
+.ba-about .ba-container {
+	max-width: 900px;
+} 
+
+.ba-about p:nth-of-type(1) {
+	margin-bottom: 41px;
 }
 
 .ba-services h2 {
@@ -89,33 +98,28 @@ body {
 	line-height: 2.23;
 	text-align: center;
 	text-transform: uppercase;
-	padding-bottom: 99px;
-}
+	margin-bottom: 30px;
+	}
 
 .ba-col {
 	display: inline-block;
 	width: 32%;: 
 }
 
+.ba-col p {
+	margin: 0; 
+}
+
 .ba-col:nth-of-type(2) {
-	margin: 0 1.2%;
+	margin-left: 1.477%;
+	margin-right: 1.477%; 
 }
 
 .ba-col h3 {
+	font-size: 18px;
 	text-transform: uppercase;
 	color: #464b4f;
 	font-weight: 700;
-	line-height: 42px;
+	line-height: 2.3;
+	margin: 0 0 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
