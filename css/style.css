@@ -1,14 +1,14 @@
 /* Segoe UI font isn't safe for MacOS */
 @font-face {
-  font-family: 'SegoeUI';
-  src: url('../fonts/SegoeUI.woff') format('woff'), url('SegoeUI.ttf')  format('truetype');
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI.woff') format('woff'), url('../fonts/SegoeUI.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'SegoeUI';
-  src: url('../fonts/SegoeUI-Bold.woff') format('woff'), url('SegoeUI-Bold.ttf')  format('truetype');
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI-Bold.woff') format('woff'), url('..fonts/SegoeUI-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
